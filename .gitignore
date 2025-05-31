@@ -57,6 +57,6 @@ MANIFEST
 node_modules/
 
 #data
-corpus/
+#corpus/
 corpus2/
 chroma_db/
