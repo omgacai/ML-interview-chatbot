@@ -24,7 +24,6 @@ build/
 
 # Config and secrets
 .env
-config.yaml
 
 # VSCode
 .vscode/
