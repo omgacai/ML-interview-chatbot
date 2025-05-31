@@ -59,3 +59,4 @@ node_modules/
 #corpus/
 corpus2/
 chroma_db/
+.streamlit/secrets.toml
