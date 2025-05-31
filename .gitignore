@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and local data
+*.log
+*.sqlite3
+*.db
+
+# Config and secrets
+.env
+config.yaml
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Streamlit specific
+.streamlit/
+
+# pyright / mypy / IDE type-checking
+.mypy_cache/
+.pyright/
+
+# ChromaDB local storage (if used)
+chroma/
+chromadb/
+
+# Python package distribution metadata
+*.egg
+.eggs/
+MANIFEST
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Node (in case you're using JS frontend)
+node_modules/
+
+#data
+corpus/
+corpus2/
+chroma_db/
