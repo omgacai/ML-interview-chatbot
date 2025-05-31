@@ -1,5 +1,5 @@
 import streamlit as st
-from src.config import CORPUS_PATH
+#from src.config import CORPUS_PATH
 from src.data_loader import load_documents
 from src.embedder import embed_text
 from src.retriever import add_to_vectorstore, retrieve_relevant_docs
@@ -8,7 +8,7 @@ from src.generator import generate_answer
 # Run once on startup
 @st.cache_resource
 def setup_pipeline():
-    docs = load_documents(CORPUS_PATH)
+    docs = load_documents("corpus/")
     texts = [doc["content"] for doc in docs]
     embeddings = embed_text(texts)
     add_to_vectorstore(docs, embeddings)
